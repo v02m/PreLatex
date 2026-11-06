@@ -1,0 +1,9 @@
+{
+  "id": "prelatex",
+  "name": "Prelatex",
+  "version": "0.1.0",
+  "minAppVersion": "1.0.0",
+  "description": "Академический пайплайн для генерации LaTeX из Obsidian через AST",
+  "author": "Valera",
+  "isDesktopOnly": true
+}

@@ -1,0 +1,24 @@
+{
+  "name": "prelatex",
+  "version": "0.1.0",
+  "description": "Академический пайплайн для генерации LaTeX из Obsidian через AST",
+  "main": "main.js",
+  "scripts": {
+    "dev": "node esbuild.config.mjs --dev",
+    "build": "node esbuild.config.mjs"
+  },
+  "keywords": [
+    "obsidian",
+    "plugin",
+    "latex",
+    "typescript"
+  ],
+  "author": "Valera",
+  "license": "MIT",
+  "dependencies": {
+    "tslib": "^2.9.1"
+  },
+  "devDependencies": {
+    "obsidian": "^1.14.4"
+  }
+}
